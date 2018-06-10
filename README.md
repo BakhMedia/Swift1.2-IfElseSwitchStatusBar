@@ -17,7 +17,7 @@
 
 4. Этот переключатель будет включать и выключать «**Ночной режим**». По умолчанию этот режим у нас выключен, поэтому необходимо перевести переключатель в позицию выключено. Для этого заходим в **Attributes inspector**, выбираем **State** и назначаем его **off**.
 
-![Image3](https://raw.githubusercontent.com/BakhMedia/Swift1.2-IfElseSwitchStatusBar/master/images/3.gif "Image3")
+![Image3](https://raw.githubusercontent.com/BakhMedia/Swift1.2-IfElseSwitchStatusBar/master/images/3.png "Image3")
 
 5. Теперь нам необходимо определить позицию **Switch**`a на экране с помощью инструмента **Constraint**: 
 - Используя инструмент **Align**, расположим **Switch** горизонтально по центру;
