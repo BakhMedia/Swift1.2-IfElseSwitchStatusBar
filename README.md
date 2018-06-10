@@ -43,17 +43,17 @@
 
 9. Программисты мы или нет в конце концов? Пора бы нам уже что-нибудь написать 😆. Должен получиться такой код:
 
-\@IBAction func changeColor(_ sender: Any) {
-\   if (switcher.isOn) {
-\        background.backgroundColor = UIColor.black
-\       label.textColor = UIColor.white
-\       UIApplication.shared.statusBarStyle = .lightContent
-\   } else {
-\       background.backgroundColor = UIColor.white
-\       label.textColor = UIColor.red
-\       UIApplication.shared.statusBarStyle = .default
-\   }
-\}
+>@IBAction func changeColor(_ sender: Any) {
+>   if (switcher.isOn) {
+>        background.backgroundColor = UIColor.black
+>       label.textColor = UIColor.white
+>       UIApplication.shared.statusBarStyle = .lightContent
+>   } else {
+>       background.backgroundColor = UIColor.white
+>       label.textColor = UIColor.red
+>       UIApplication.shared.statusBarStyle = .default
+>   }
+>}
 
 Давайте его немного разберем:
 - Первая и последняя строка - это то, что за нас любезно «написал» **Xcode** в пункте 8. Подобные коды мы будем разбирать позднее, пока просто оставляем его без изменений, единственное, на что нам надо обратить внимание, - это символы **{** и **}** в самой первой строке и в самой последней. Наш код относящийся к обработчику нажатия на **switcher** должен находится между этими фигурными скобками;
