@@ -1,5 +1,5 @@
-[Предыдущий урок на YouTube](https://www.youtube.com/watch?v=sD5_7Y-KMLU)
-[Предыдущий урок на GitHub](https://github.com/BakhMedia/Swift1.1-LabelAndConstraint)
+- [Предыдущий урок на YouTube](https://www.youtube.com/watch?v=sD5_7Y-KMLU)
+- [Предыдущий урок на GitHub](https://github.com/BakhMedia/Swift1.1-LabelAndConstraint)
 
 # Switch, If Else и Ночной режим
 ### Урок 2.
@@ -80,7 +80,7 @@
 
 
 
-[Следующий урок на YouTube](https://www.youtube.com/watch?v=Bdznz_MAiw4)
-[Следующий урок на GitHub](https://github.com/BakhMedia/Swift1.3-TabBar)
+- [Следующий урок на YouTube](https://www.youtube.com/watch?v=Bdznz_MAiw4)
+- [Следующий урок на GitHub](https://github.com/BakhMedia/Swift1.3-TabBar)
 
 
