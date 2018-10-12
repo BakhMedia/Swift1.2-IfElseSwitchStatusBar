@@ -13,6 +13,15 @@ class ViewController: UIViewController {
     @IBOutlet var background: UIView!
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var switcher: UISwitch!
+    private var dark: Bool = false
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        if dark {
+            return .lightContent
+        } else {
+            return .default
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,12 +37,12 @@ class ViewController: UIViewController {
         if (switcher.isOn) {
             background.backgroundColor = UIColor.black
             label.textColor = UIColor.white
-            UIApplication.shared.statusBarStyle = .lightContent
         } else {
             background.backgroundColor = UIColor.white
             label.textColor = UIColor.red
-            UIApplication.shared.statusBarStyle = .default
         }
+        self.dark = switcher.isOn
+        self.setNeedsStatusBarAppearanceUpdate()
     }
     
 }
